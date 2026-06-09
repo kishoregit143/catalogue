@@ -124,6 +124,7 @@ pipeline {
                           sh """
                            
                              doucker build -t catalogue:${appVersion} .
+                             docker images
 
                           """ 
                     // withAWS(region:'us-east-1',credentials:'aws-creds') {

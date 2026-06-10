@@ -49,6 +49,14 @@ pipeline {
                 }
             }
         }
+        stage ('Socanar Scan'){
+
+             steps {
+                   
+                     echo  'adde sonar scan tools ans server'
+
+             }
+        }
         stage('Build Image') {
             steps {
                 script{

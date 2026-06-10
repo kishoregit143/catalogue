@@ -24,9 +24,9 @@ pipeline {
             steps {
                 script{
                     sh """
-                        dnf module disable nodejs -y
-                        dnf module enable nodejs:20 -y
-                        dnf install nodejs -y
+                        sudo dnf module disable nodejs -y
+                        sudo dnf module enable nodejs:20 -y
+                        sudo dnf install nodejs -y
                         npm install
                     """
                 }

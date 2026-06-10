@@ -128,7 +128,7 @@ pipeline {
                 }
             }
         }
-
+          // we can scan images use trivy
          stage('Trivy Scan'){
             steps {
                 script{

@@ -59,7 +59,7 @@ pipeline {
         }
         stage('Quality Gate') {
              
-             stesps{
+             steps{
 
                 echo 'add quility gates tests code'
              }  

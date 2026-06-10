@@ -53,7 +53,7 @@ pipeline {
 
              steps {
                    
-                     echo  'adde sonar scan tools ans server,abortPipeline: true will fail the Jenkins job if the quality gate is 'FAILED''
+                     echo  'adde sonar scan tools ans server'
 
              }
         }
@@ -61,11 +61,11 @@ pipeline {
              
              stesps{
 
-                echo 'Wait for the quality gate status'
+                echo 'add quility gates tests code'
              }  
 
         }   
-        
+
         stage('Build Image') {
             steps {
                 script{

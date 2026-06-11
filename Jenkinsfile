@@ -63,7 +63,7 @@ pipeline {
                 echo 'add quility gates tests code'
              }  
         }  
-        // Dependabot security gates vulnerabilities scans.
+        // Dependabot security gates vulnerabilities scan.
         stage('Dependabot Security Gate') {
             environment {
                 GITHUB_OWNER = 'kishoregit143'
